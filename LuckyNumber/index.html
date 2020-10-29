@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de LUCKY NUMBER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;0,600;1,300&family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <!--Partie d'introduction-->
+    <section class='contenu'>
+        <div class='titre'>
+            <h1>Lucky Number</h1>
+        </div>
+        <div class='explication'>
+            <p>Il y a un numéro clé entre 1 et 6.</p>
+            <p>Vous devinez un numéro en le tappant sur le champs dessous.  </p>
+            <p>Vous vérifiez votre prédiction en appuyant le bouton. </p>
+        </div>
+    </section>
+    
+    <!--Partie d'animation-->
+    <div class='check'>
+        <div class="style">
+            <label for="numGuess">Votre nombre choisi: </label>
+            <input type="number" id='numGuess' placeholder="Tappez votre numéro ici" min="0" max="6" step="1" pattern="\d+" />
+            <br>
+            <button class='confirmation'>Vérifier</button>
+            <button class='restart'>Rejouer</button>
+        </div>
+    </div>
+
+    <!--Partie d'informer le résultat-->
+    <div class='mainInfo'><p class='info'></p></div> 
+
+
+    <!--Partie d'image-->
+    <footer class='noneDisplay'>
+        <img src="images/wizardParty.gif" alt="Wizard Party">
+    </footer>
+    <div class="tryagain">
+        <img src="images/tryagain.gif" alt="Try Again!!!">
+    </div>
+
+    <div class="image">
+            <img src="Leaves/leaves1.png" alt="Leaf"  class="leaf1">
+            <img src="Leaves/leaves2.png" alt="Leaf"  class="leaf2">
+            <img src="Leaves/leaves3.png" alt="Leaf"  class="leaf3">
+            <img src="Leaves/leaves4.png" alt="Leaf"  class="leaf4">
+            <img src="Leaves/leaves1.png" alt="Leaf"  class="leaf5">
+            <img src="Leaves/leaves2.png" alt="Leaf"  class="leaf6">
+            <img src="Leaves/leaves3.png" alt="Leaf"  class="leaf7">
+            <img src="Leaves/leaves4.png" alt="Leaf"  class="leaf8">
+            <img src="Leaves/leaves2.png" alt="Leaf"  class="leaf9">
+        
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+Document d'intégration :
+
+
+Couleurs :
+
+- Fonds et bordures bleu           |  #3480be
+- Fond gris                        |  #f5f5f5
+- Titres et texte bleu             |  #235680
+- Titre et texte gris foncé        |  #333333
+- Boutons bleu                     |  #5a9deb
+
+Largeur éléments :
+- Fonds des blocs                  |  toute la largeur de l'écran
+- Contenu des blocs                |  1180px maximum
+- Contenu du bloc du 1er titre     |  900px maximum
+
+Font : 
+
+- Logo (Nom Prénom) et titres bleu |  Font Google : Raleway
+- Le reste                         |  Arial
+
+------------------------------------------------------------
+
+
+Pour les hover des liens : vous avez quartier libre

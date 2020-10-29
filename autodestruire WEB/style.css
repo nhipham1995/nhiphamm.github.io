@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  hyphens: auto;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3480be;
+  color: white;
+  height: 50px;
+  padding: 15px 150px;
+}
+
+#nom,
+.intro > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+input {
+  width: 250px;
+  height: 25px;
+  color: rgb(18, 124, 106);
+  padding-left: 10px;
+  border: 1px solid #afacac;
+  border-radius: 3px;
+  box-shadow: 0.5px 0.5px 0 1px #333333;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navList li a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+.navList li a:hover {
+  font-size: 1.2rem;
+  color: rgb(29, 250, 213);
+}
+
+/* partie d'introduction */
+.intro {
+  /* creation de background with image gif */
+  background-image: url("images/bg.gif");
+  background-repeat: repeat;
+  display: block;
+  width: 100%;
+  color: #235680;
+}
+
+.header {
+  max-width: 900px;
+  margin: auto;
+}
+
+.mainContent {
+  max-width: 630px;
+  margin: auto;
+}
+
+.header > h1,
+.header > h2,
+.mainContent > p {
+  text-align: center;
+}
+
+.header > h1 {
+  padding-top: 45px;
+  font-size: 2.5rem;
+}
+
+.header > h2 {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.mainContent > p {
+  margin-top: 25px;
+  font-style: italic;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.button {
+  max-width: 300px;
+  margin: 20px auto 0 auto;
+  padding-bottom: 30px;
+}
+
+button {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #5a9deb;
+  border-radius: 4px;
+  color: #5a9deb;
+  cursor: pointer;
+}
+
+.button button:nth-child(1) {
+  background-color: #5a9deb;
+  color: white;
+  margin-right: 10px;
+}
+
+.button button:nth-child(1):hover {
+  color: rgb(29, 250, 213);
+}
+
+button:hover {
+  color: rgb(153, 153, 17);
+}
+
+/*Partie de PROJET */
+.projet {
+  background-color: #f5f5f5;
+  padding: 15px 150px;
+}
+
+.projet > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #235680;
+  padding: 30px 0;
+  font-size: 1.8rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  color: #333333;
+}
+
+.column1 {
+  width: 40%;
+}
+
+.column1 > p {
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  hyphens: auto;
+  font-size: 0.8rem;
+}
+
+.column1 > button {
+  margin-top: 20px;
+}
+
+.column2 {
+  width: 50%;
+}
+
+.column2 img {
+  margin-left: 50px;
+}
+
+hr {
+  width: 100px;
+  border-top: 1px solid #235680;
+  margin: 15px 0;
+}
+
+/* change display when changing width of device */
+@media (max-width: 900px) {
+  .navbar {
+    padding: 15px 50px;
+  }
+  .navList li a {
+    margin-left: 15px;
+  }
+  .mainContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .projet {
+    padding: 15px 50px;
+  }
+  .projet > h2 {
+    text-align: center;
+  }
+  .content {
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .content .column1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .content .column2 {
+    width: 95%;
+    margin: 30px auto;
+    padding-left: 0;
+  }
+  .column2 img {
+    margin: 0;
+  }
+}
+
+/* Partie de LOGO */
+.logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 85px;
+}
+.logo img {
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* change display LOGO when changing width of device */
+@media (max-width: 600px) {
+  .logo {
+    display: block;
+  }
+  .logo img {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+/* Partie de FOOTER */
+.footer {
+  background-color: #3480be;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.footer h5 {
+  text-align: center;
+}
+
+.footer span {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer span:hover {
+  color: burlywood;
+}

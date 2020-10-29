@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: radial-gradient(rgb(104, 92, 92), rgb(71, 67, 67));
+
+}
+
+.head {
+    text-align: center;
+}
+
+.head p:nth-child(1), .head p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.head p {
+    margin-top: 7px;
+    font-size: 1.7rem;
+    color: rgb(245, 229, 7);
+
+}
+
+.color {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+}
+
+.item {
+    margin: 10px;
+    width: 30%;
+    height: 100px;
+
+}
+
+section {
+    margin: 0 20%;
+}
+.infoLine {
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ #easy {
+     margin-right: 10px;
+ }
+
+ .infoLine button {
+     width: 100px;
+     height: 40px;
+     font-size: 1rem;
+     border-radius: 8%;
+     border: 1px solid black;
+     box-shadow: 1px 1px 2px #333;
+    
+ }
+
+ .infoLine button:hover {
+     background-color: darkorange;
+ }

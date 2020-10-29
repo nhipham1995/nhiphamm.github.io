@@ -1,0 +1,18 @@
+---------------- Texte Bloc blanc --------------- 
+
+Je suis développeur webet j’aime apprendre de nouvelles choses
+
+Celebratae locum perpetuum denique accitur speciem domus sonu nunc denique doctor ludicrarum bybliothecis sit et et non perflabili oratoris sepulcrorum tibiaeque perflabili exundant speciem sepulcrorum nunc ritu cum antea non.
+
+---------------- Texte Bloc gris ---------------- 	
+
+Découvrez mon dernier projet
+
+La réalisation d’une page web en HTML/CSS
+
+Celebratae locum perpetuum denique accitur speciem domus sonu nunc denique doctor ludicrarum bybliothecis sit et et non perflabili oratoris sepulcrorum tibiaeque perflabili exundant speciem sepulcrorum nunc ritu cum antea non.
+Quaestione igitur per multiplices dilatata fortunas cum ambigerentur quaedam, non nulla levius actitata ...
+
+---------------- Texte Footer -------------------- 
+
+Designed by @moi. Tout droit réservé | Mentions légales | Plan du site
