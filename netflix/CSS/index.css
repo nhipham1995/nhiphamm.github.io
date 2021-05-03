@@ -5,30 +5,7 @@
     src: local(''),
          url('/font/NetflixSansLight.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         }
-@font-face {
-    font-family: 'Test';
-    font-style: normal;
-    font-weight: 200;
-    src: local(''),
-         url('/font/nf-icon-v1-93.woff') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/font/nf-icon-v1-93.woff') format('woff')
-        }
-@font-face {
-    font-family: 'Title';
-    font-style: bold;
-    font-weight: 200;
-    src: local(''),
-         url('/font/NetflixSans_W_Md.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/font/NetflixSans_W_Md.woff2') format('woff')
-        }
-@font-face {
-    font-family: 'Normal';
-    font-style: normal;
-    font-weight: 200;
-    src: local(''),
-         url('/font/NetflixSans_W_Rg.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/font/NetflixSans_W_Rg.woff2') format('woff')
-        }
+
 :root {
     --primary-color: #e50914;
     --dark-color: #141414;
@@ -36,19 +13,20 @@
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #fff;
     background: black;
-    font-weight: 200;
+
 }
 
 header{
     min-height: 90vh;
-    background-image: url(/imgs/background-hero);
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/71cfa010-f8dd-4298-a94d-1ae5034a857c/dc7b7d14-63d4-4bdf-99f5-9861cd6893f3/FR-en-20210425-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
+    padding-bottom: 20px;
    
 }
 header:before{
@@ -91,14 +69,16 @@ button.btn-danger {
     z-index: 300;
 }
 .header-content h1 {
-    font-family: 'Title';
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
 }
 .header-content h1 {
-    font-size: 6em;
+    font-size: 4em;
 }
 p.detail-content {
     font-size: 28px;
-    font-family: 'Normal';
+    font-weight: 500;
     margin: 33px auto;
 }
 
@@ -211,6 +191,7 @@ img.img-2 {
 }
 .text p {
     line-height: 0.8;
+    margin-bottom: 10px;
 }
 .text p.telecharge{
     font-size: 13px;
@@ -255,8 +236,8 @@ img.img-2 {
 }
 h2 {
     font-size: 5rem;
-    font-family: 'Title';
     margin-bottom: 30px;
+    font-weight: 600;
 }
 p.text-list {
     font-size: 25px;
