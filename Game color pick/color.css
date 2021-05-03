@@ -1,68 +1,188 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  min-width: 100vh;
+}
 header {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background: radial-gradient(rgb(104, 92, 92), rgb(71, 67, 67));
-
+  background-color: #112240;
+  color: #64ffda;
+  font-size: 2rem;
 }
 
 .head {
-    text-align: center;
+  text-align: center;
 }
 
-.head p:nth-child(1), .head p:nth-child(2) {
-    text-transform: uppercase;
+.head p:nth-child(1),
+.head p:nth-child(2) {
+  text-transform: uppercase;
+}
+.head p:nth-child(2) {
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
-.head p {
-    margin-top: 7px;
-    font-size: 1.7rem;
-    color: rgb(245, 229, 7);
+#content {
+  max-width: 850px;
+}
+.infoLine {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
 
+button {
+  padding: 5px 8px 5px 8px;
+  border: none;
+  color: rgb(29, 4, 7);
+  background-color: salmon;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#newcolor {
+  background-color: rgb(169, 231, 243);
+  border-radius: 5px;
+}
+#easy {
+  border-radius: 5px;
+  background-color: rgb(98, 188, 213);
+}
+#hard {
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: rgb(65, 170, 194);
+  color: rgb(31, 6, 8);
 }
 
 .color {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px 50px;
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .item {
-    margin: 10px;
-    width: 30%;
-    height: 100px;
-
+  width: 100%;
+  height: 100px;
+  border-radius: 7px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-section {
-    margin: 0 20%;
+.wrapper img {
+  margin-top: 30px;
+  position: absolute;
+  max-width: 954.36px;
+  height: 400.17px;
+  right: 0px;
 }
-.infoLine {
-    padding: 20px 50px 20px 50px;
-    display: flex;
-    justify-content: space-between;
 
+#message {
+  max-width: 210px;
+  margin: 20px auto 0 auto;
+  text-align: center;
 }
- #easy {
-     margin-right: 10px;
- }
+@media only screen and (max-width: 1000px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 954.36px;
+    height: 400.17px;
+    right: 0px;
+    margin-left: 10px;
+  }
+}
 
- .infoLine button {
-     width: 100px;
-     height: 40px;
-     font-size: 1rem;
-     border-radius: 8%;
-     border: 1px solid black;
-     box-shadow: 1px 1px 2px #333;
-    
- }
+@media only screen and (max-width: 950px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 850.36px;
+    height: 356.17px;
+    right: 0px;
+  }
+}
 
- .infoLine button:hover {
-     background-color: darkorange;
- }
+@media only screen and (max-width: 860px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 750.36px;
+    height: 314.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 650.36px;
+    height: 272.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 550.36px;
+    height: 230.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 450.36px;
+    height: 188.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 441.36px;
+    height: 657.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 360.36px;
+    height: 535.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 290.36px;
+    height: 431.17px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .wrapper img {
+    margin-top: 60px;
+    position: absolute;
+    max-width: 240.36px;
+    height: 357.17px;
+    right: 0px;
+  }
+}

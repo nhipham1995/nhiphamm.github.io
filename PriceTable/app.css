@@ -2,69 +2,189 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 body {
   background-color: #60a9ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
   min-height: 100vh;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  margin-bottom: 50px;
+}
+
+.navbar {
+  background-color: none;
+}
+
+#logo {
+  color: rgb(215, 230, 249);
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+}
+
+a#logo.navbar-brand:hover {
+  color: #ffc93c;
+}
+
+.hello {
+  text-align: center;
+  margin: 30px auto 35px auto;
+  color: white;
+}
+.hello h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.hello p {
+  color: rgb(227, 234, 243);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
 .panel {
+  margin: 0 auto 20px auto;
   background-color: white;
   border-radius: 10px;
   padding: 15px 25px;
-  width: 100%;
   max-width: 960px;
   display: flex;
   flex-direction: column;
@@ -104,12 +224,12 @@ body {
   border-top: 1px solid #e1f1ff;
 }
 
-.pricing-features-item:last-child{
+.pricing-features-item:last-child {
   border-bottom: 1px solid #e1f1ff;
 }
 
 .pricing-price {
-  color: #016ff9; 
+  color: #016ff9;
   display: block;
   font-size: 32px;
   font-weight: 700;
@@ -126,7 +246,8 @@ body {
   transition: background-color 200ms ease-in-out;
 }
 
-.pricing-button:hover, .pricing-button:focus {
+.pricing-button:hover,
+.pricing-button:focus {
   background-color: #e1f1ff;
 }
 
@@ -135,13 +256,13 @@ body {
   color: white;
 }
 
-.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
   background-color: #269aff;
   color: white;
 }
 
-
-@media (min-width: 900px){
+@media (min-width: 900px) {
   .panel {
     flex-direction: row;
   }
@@ -152,5 +273,33 @@ body {
   }
   .pricing-plan:last-child {
     border-right: none;
+  }
+}
+
+@media only screen and (max-width: 940px & min-width: 900) {
+  .panel {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200) {
+  .panel {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  div.panel {
+    margin: 30px 100px 10px 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.panel {
+    margin: 30px 25px 10px 25px;
   }
 }
