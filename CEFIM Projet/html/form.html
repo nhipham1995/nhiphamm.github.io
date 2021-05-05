@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWWM - Nhi PHAM</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/police.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">DWWM</div>
+            <nav class="main-nav">
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul id="menu" class="menu" role="list" hidden>
+                    <li class="menu-item "><a href="./index.html" class="menu-link">ACCUEIL</a></li>
+                    <li class="menu-item"><a href="./formation.html" class="menu-link">LA FORMATION</a></li>
+                    <li class="menu-item"><a href="./etudiant.html" class="menu-link">Les étudiants</a></li>
+                    <li class="menu-item"><a href="./actualite.html" class="menu-link">actualités</a></li>
+                    <li class="menu-item menu-main"><a href="./form.html" class="menu-link">nous contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <h1 class="h2-like">Nous Contacter</h1>
+    <div class="container">
+        <form action="./form.html">
+            <div class="nom">
+                <label for="nomInput" 
+                       class="form-label">
+                    Votre nom
+                </label> 
+                <br>
+                <input type="text"  
+                       id="nomInput" 
+                       placeholder="Entrez votre nom">
+            </div>
+            <div class="email">
+                <label for="emailInput" 
+                       class="form-label">
+                    Votre e-mail
+                </label>
+                <br>
+                <input type="email"  
+                       id="emailInput" 
+                       placeholder="Entrez votre address e-mail">
+            </div>
+            <div class="message">
+                <label for="messageTextarea" 
+                       class="form-label">
+                    Votre message
+                </label>
+                <br>
+                <textarea class="form-control"
+                          id="messageTextarea" 
+                          rows="5" 
+                          placeholder="Tapez votre message"></textarea>
+              </div>
+            <button class="card-button" 
+                    style="max-width: 18rem; height:4.8rem; border-radius: 5px;">
+                <p>Envoyer </p>
+                <img src="../img/arrow.svg" 
+                     alt="" 
+                     style="margin-left: 1rem;"> 
+            </button>
+        </form>
+    
+    </div>
+    
+
+
+
+    <footer class="footer-main">
+        <div class="container">
+            <address>
+                <p class="title-footer">Développeur Web et Web Mobile</p> 
+                <p>CEFIM</p>
+                <p>32 Avenue Marcel Dassault</p>
+                <p>37200 Tours</p>
+                <p>T: 02 47 40 26 80</p>
+            </address>
+            <div class="legale">
+                <p> <a href="">Mentions légales</a> </p>
+                <p><a href="./politique.html">Politique de confidentialité</a> </p>      
+            </div>
+            <div class="social-network">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a> 
+                <a href=""><i class="fab fa-linkedin-in"></i></a> 
+            </div>
+        </div>      
+    </footer>
+    <script src="/nav.js"></script>
+    
+</body>
+</html>

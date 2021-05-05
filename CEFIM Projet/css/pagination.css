@@ -1,0 +1,40 @@
+/* Pagination */
+nav ul.pagination-list{
+    max-width: 23rem;
+    margin: 8rem auto 3rem auto;
+}
+ul.pagination-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+    
+}
+.pagination-item a{
+    color: var(--orange);
+}
+.pagination-item.active a{
+    color: var(--white);
+}
+.pagination-item{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    text-align: center;
+}
+.pagination-item.active{
+    background-color: var(--orange);
+}
+.pagination-item:not(:last-child){
+    margin-right: 2rem;
+}
+.pagination-item:hover {   
+    background-color: var(--orange);
+    transition: .2s;
+}
+.pagination-item a:hover{
+    color: var(--white);
+    transition: .2s;
+    z-index: 10;
+}

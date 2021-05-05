@@ -1,0 +1,132 @@
+@media screen and (max-width: 1200px){
+    li.menu-item{
+         font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 62em){
+    .logo{
+         font-size: 3.84rem;
+    }
+    .menu{
+         font-size: 2.56rem;
+    }
+    h1{
+         font-size: 5.12rem;
+    }
+    .hero{
+         padding-top: 7rem;
+         padding-bottom: 4rem;
+    }
+    a.hero-button {
+         font-size: 2.56rem;
+         padding: 1.5rem;
+    }
+    h2, .h2-like{
+         font-size: 3.84rem;
+    }
+    .date{
+         font-size: 1.28rem;
+    }
+    h3{
+         font-size: 1.92rem;
+    }
+    p{
+         font-size: 1.6rem;
+    }
+    button.card-button {
+         font-size: 1.92rem;
+         padding: 0.8rem 0;
+    }
+    .etudiant-content-item .card-content, .en-bref .card-content{
+         font-size: 1.4rem;
+    }
+
+
+}
+@media screen and (max-width: 48em){
+    .logo{
+         font-size: 3rem;
+    }
+    .menu{
+         font-size: 2rem;
+    }
+    h1{
+         font-size: 3.5rem;
+    }
+    .hero{
+         padding-top: 4rem;
+         padding-bottom: 2rem;
+    }
+    a.hero-button {
+         font-size: 2rem;
+         padding: 1rem;
+    }
+    h2, .h2-like{
+         font-size: 3rem;
+    }
+    .date{
+         font-size: 1rem;
+    }
+    h3{
+         font-size: 1.5rem;
+    }
+    p{
+         font-size: 1.25rem;
+    }
+    button.card-button {
+         font-size: 1.5rem;
+         padding: 0.65rem 0;
+    }
+    li.etudiant-item a{
+         font-size: 1.2rem;
+    }
+    .formation-intro p{
+         font-size: 1.8rem;
+    }
+    .etudiant-content-item .card-content, .en-bref .card-content{
+         font-size: 1.2rem;
+    }
+    .etudiant-intro img {        
+         max-width: 35.4rem;       
+    }
+
+}
+@media screen and (max-width: 36em){
+    .logo{
+         font-size: 2.5rem;
+    }
+    .menu{
+         font-size: 1.66rem;
+    }
+    h1{
+         font-size: 3rem;
+    }
+    .hero{
+         padding-top: 4rem;
+         padding-bottom: 2rem;
+    }
+    a.hero-button {
+         font-size: 1.66rem;
+         padding: 1rem;
+    }
+    h2, h2-like{
+         font-size: 2.5rem;
+    }
+    .date{
+         font-size: 10.83rem;
+    }
+    h3{
+         font-size: 1.245rem;
+    }
+    p{
+         font-size: 1.04rem;
+    }
+    button.card-button {
+         font-size: 1.245rem;
+         padding: 0.65rem 0;
+    }
+    .etudiant-intro img {        
+         max-width: 30.4rem;       
+    }
+
+}
