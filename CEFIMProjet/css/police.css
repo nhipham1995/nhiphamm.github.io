@@ -1,0 +1,120 @@
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/raleway-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-500 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/raleway-v19-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v19-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-600 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/raleway-v19-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v19-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* montserrat-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* Style généraux */
+:root{
+     --primary: #331100;
+     --orange: #fd7e37;
+     --white: #fff;
+     --date: #663014;
+     --shadow: #00000029;
+}
+:focus{
+     outline: .2rem solid #55d555;
+}
+
+
+/* Polices */
+body{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 400;
+     font-size: 2rem;
+     color: var(--primary);
+     line-height: 1.5;
+}
+h1{
+     font-family: "Raleway", sans-serif;
+     font-weight: 600;
+     font-size: 7.2rem;
+     line-height: 1.2;
+     color: var(--white);
+}
+h2, .h2-like {
+     font-family: "Raleway", sans-serif;
+     font-weight: 600;
+     font-size: 4.8rem;
+     line-height: 1;
+     color: #331100;
+     margin-top: 4rem;
+     text-align: center;
+     margin-bottom: 4rem;
+}
+h3{
+     font-family: "Raleway", sans-serif;
+     font-weight: 500; 
+     font-size: 2.4rem;
+}
+.logo{
+     font-family: "Raleway", sans-serif;
+     font-weight: bold;
+     font-size: 4.8rem;
+     line-height: 0.625;
+}
